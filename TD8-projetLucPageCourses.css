@@ -112,3 +112,9 @@
   .addBtn:hover {
     background-color: #bbb;
   }
+  .container {
+    width: 50em;
+    background-color: #f44336;
+    padding: 10px 10px;
+    text-align: center;
+  }
