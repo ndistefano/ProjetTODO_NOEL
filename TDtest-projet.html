@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PageListeCadeaux</title>
+  <link rel="stylesheet" href="td8-projet.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark text-white">
+    <div class="container">
+      <img src="TRAINEAU.png" class="img-fluid" alt="maphoto">
+        <a class="navbar-brand" href="#">Ma lettre au Père Noël</a>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                <a class="nav-link" href="#">Mon repas de Noël</a>
+                </li>           
+            </ul>
+        </div>
+        <img src="house-user-solid_orange.png" class="logoHome" alt="maphoto">
+    </div>
+  </nav>
+    
+<main>
+<div class="parent container-fluid">
+  <div class="bloc1 row justify-content-center">
+    <div id="col1" class="col-sm-6 col-lg-6 col-xs-12">
+      <div class="cherPere" id="cherPere">
+      <h1>Chèr Père noël,</h1>
+      <h1>cette année j'ai été :</h1>
+      <p>Sage</p><input type="checkbox">
+      <p>Trés sage</p><input type="checkbox">
+      <p>Trés trés sage</p><input type="checkbox">
+      </div>
+    
+      <div class="bloc3">
+        <div id="myDIV" class="header">
+          <h2>Et, j'aimerais beaucoup avoir:</h2>
+          <input type="text" id="myInput" placeholder="Saisie ton souhait...">
+          <span onclick="newElement()" class="addBtn">Ajouter</span>
+        </div>
+      
+        <ul id="myUL">
+          <li>Un puzzle licorne</li>
+          <li class="checked">Une barbie</li>
+          <li>Village princesse playmobile</li>
+          <li>Une coiffeuse</li>
+          <li>Une robe de princesse</li>
+        </ul>    
+
+      </div>
+    </div>  
+
+    <div id="col2" class="bloc2-2 col-sm-6 col-lg-6 col-xs-12">
+      <div class="bloc2">
+        <p>Envoyer ma liste</p>
+        <button id="ok">OK</button>
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="td8-projet.js"></script>
+
+</body>
+
+</html>

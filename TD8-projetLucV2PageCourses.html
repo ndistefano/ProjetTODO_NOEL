@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TD8-projetLucV2PageCourses.css" />
+    <title>Ma liste de courses</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="TRAINEAU.png" class="TRAINEAU" alt="traineau">
+        <h1>Mon repas de Noël</h1>
+        <a class="titre" href="#">Ma lettre au Père Noël</a>
+        <img src="house-user-solid_orange.png" class="logoHome" alt="maphoto">
+    </nav>
+
+    <div class="container3">
+        <div class="monMenu" id="monMenu">
+            <h1>Mon menu :</h1>
+            <h3>Entrée</h3>
+            <p>Saint-Jacques</p>
+            <h3>Plat</h3>
+            <p>Dinde aux marrons</p>
+            <h3>Dessert</h3>
+            <p>Pièce montée macarons</p>
+        </div>
+    </div>
+    <div class="container">
+        <img src="..\Fond_PageRepas_1gauche.jpg" height="720px">
+        <img src="..\Fond_PageRepas_1droite.jpg" height="720px">
+    </div>
+
+
+    <div class="container2">
+        <article>
+            <!--<img src="..\repasNoel.jpg" alt="Repas_Noel" class="rounded img-fluid">-->
+            <div id="myDIV" class="header">
+                <h1>Ma liste de courses</h1>
+            </div>
+            <h2>Entrées</h2>
+            <ul id="myUL">
+                <li>Caviar</li>
+                <li class="checked">Foie gras</li>
+                <li>Escargots</li>
+                <li>Huîtres</li>
+                <li>Crevettes</li>
+            </ul>
+            <input type="text" id="myInput" placeholder="Nouvel article...">
+            <span onclick="newElement()" class="addBtn">Ajouter</span>
+            <h2>Plats</h2>
+            <ul id="myULPlats">
+                <li>Chapon</li>
+                <li class="checked">Homard à l'armoricaine</li>
+                <li>Cerf</li>
+                <li>Dinde</li>
+                <li>Marrons</li>
+            </ul>
+            <input type="text" id="myInput2" placeholder="Nouvel article...">
+            <span onclick="newElement2()" class="addBtn">Ajouter</span>
+            <h2>Desserts</h2>
+            <ul id="myULDessert">
+                <li>Bûche aux deux chocolats</li>
+                <li class="checked">Crème anglaise</li>
+                <li>Bûche glacée au café</li>
+                <li>Crème de marrons</li>
+            </ul>
+            <input type="text" id="myInput3" placeholder="Nouvel article...">
+            <span onclick="newElement3()" class="addBtn">Ajouter</span>
+            <h2>Boissons</h2>
+            <ul id="myULBoissons">
+                <li>Champagne</li>
+                <li class="checked">Champomy</li>
+                <li>Pouilly fumé</li>
+                <li>Saint-Emilion</li>
+                <li>Coca-cola</li>
+            </ul>
+            <input type="text" id="myInput4" placeholder="Nouvel article...">
+            <span onclick="newElement4()" class="addBtn">Ajouter</span>
+        </article>
+    </div>
+    <container4>
+        <div class="imprimEnvoi">
+            <h1>Imprimer</h1> 
+                <h1>ma liste</h1>
+            <button id="ok">OK</button>
+        </div>
+    </container4>
+
+    </div>
+    <script src="TD8-projetLucV2PageCourses.js"></script>
+</body>
+
+</html>
