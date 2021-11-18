@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+* {
+  font-family: "estonia", cursive;
+  font-size: larger;
+  font-style: bolder;
+}
+
+.navbar {
+  display: flex;
+  height: 100px;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 80px;  
+  color: #A32613;
+  margin-right: 20px;
+}
+
+.TRAINEAU{
+  width: 20%;
+}
+
+body {
+  width: min-content;
+}
+
+main {
+  display: flex;
+}
+
+/* On screens that are 992px or less, set flex direction en column */
+@media screen and (max-width: 992px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }   
+}
+
+.titre1 {
+    color: #A32613;
+    font-size: 60px;
+
+}
+
+.titre2 {
+    color: #A32613;
+    font-size: 50px;
+}
+
+.bloc2 {
+  position: absolute;
+  width: max-content;
+  margin-top: 85px;
+  margin-left: 585px;
+  font-size: 50px;
+  color: #A32613;
+  text-align: center;
+  z-index: 2;  
+}
+
+.bloc3 {
+  width: auto;
+  position: absolute;
+  padding-left: 385px;
+  padding-top: 240px;
+  font-size: 20px;
+  z-index: 2;
+  line-height: 60px;
+  font-size: 100px;
+  color: #A32613;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+#fond1 {
+  position: relative;
+  z-index: 1;
+}
+
+#fond2 { 
+  position: relative;
+  z-index: 1;       
+}
+    
+ 
